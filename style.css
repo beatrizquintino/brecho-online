@@ -17,20 +17,12 @@ body {
     padding: 1rem;
 }
 
-.navbar img{
-    max-width: 60px;
-    margin: auto;
-    display: block;
-   
-}
 
 .navbar ul{
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 7rem;
-
-
+    gap: 2rem;
 }
 
 
@@ -38,10 +30,6 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    border: 2px;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: white;
 }
 
 
@@ -60,15 +48,18 @@ main{
 section{
     margin: 2rem 0;
     padding: 2rem;
+    background-color: #a1a1a1;
     border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 
 .conteudo{
     padding: 1rem;
     margin-bottom: 1rem;
+    background-color: yellow;
     border-radius: 8px;
-    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -79,7 +70,6 @@ section{
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
 }
 
 
@@ -87,28 +77,4 @@ section{
     width: 100%;
     height: auto;
     display: block;
-}
-
-.carousel {
-    display: flex;
-    overflow: hidden;
-    width: 1000px;
-
-}
-
-.carousel img{
-    width: 100%;
-    transition: transform 0.5s ease-in-out;
-    
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-}
-
-.flexivel {
-    display: flex;
-}
-
-.contato {
-    
 }
