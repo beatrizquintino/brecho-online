@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rum+Raisin&display=swap" rel="stylesheet">
     <title>Brechó do Quico</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar">
-            <img src="https://i.pinimg.com/736x/bb/1e/0d/bb1e0dec262e873e2aeb87a26a9e8822.jpg">
+            <div class="Quico_text">
+                <div class="Quico">
+                    <img src="https://i.pinimg.com/736x/bb/1e/0d/bb1e0dec262e873e2aeb87a26a9e8822.jpg">
+                </div>
+                <div class="legend_Q">
+                    <span>
+                        Brechó
+                    </span>
+                    <span>
+                        Do Quico
+                    </span>
+                </div>
+            </div>
             <ul>
                 <li><a href="#produtos">Produtos</a></li>
                 <li><a href="#sobre">Sobre</a></li>
@@ -26,91 +42,99 @@
 
                 <h2>Bem-vindo ao Brechó do Quico</h2>
                 <p>Onde a moda ganha novos significados!</p>
+
             </div>
         </section>
 
 
         <section id="produtos">
             <div id="produtos">
-                <div class="carousel">
-                    <div>
-                        <img src="imagens/camisa-hyago.png">
-                    </div>
-                    <div>
-                        <img src="imagens/camisa-bia.png">
-                    </div>
+                <h2>Produtos</h2>
+                <br>
+            </div>
 
-                    <div>
-                        <img src="imagens/camisa-bruno.png">
-                    </div>
-                    <div>
-                        <img src="imagens/camisa-vitor.png">
-                    </div>
-                </div>
-                <div class="carousel">
-                    <div>
-                        <img src="imagens/calca-hyago.png">
-                    </div>
-                    <div>
-                        <img src="imagens/shorts.png">
-                    </div>
-                    <div>
-                        <img src="imagens/bermuda-bruno.png">
-                    </div>
-                    <div>
-                        <img src="imagens/bermuda-vitor.png">
-
-                    </div>
+            <div class="carrosel">
+                <div class="conjunto">
+                    <img src="imagens/camisa-hyago.png">
+                    <img src="imagens/calca-hyago.png">
                 </div>
 
+                <div class="conjunto">
+                    <img src="imagens/camisa-vitor.png">
+                    <img src="imagens/bermuda-vitor.png">
+                </div>
+
+                <div class="conjunto">
+                    <img src="imagens/camisa-bia.png">
+                    <img src="imagens/shorts.png">
+                </div>
+
+                <div class="conjunto">
+                    <img src="imagens/camisa-bruno.png">
+                    <img src="imagens/bermuda-bruno.png">
+                </div>
             </div>
         </section>
 
 
         <section id="sobre">
-            <div id="sobre">
-                <h2>Sobre Nós</h2>
-                <p>
-                    No Brechó Online, acreditamos que a moda pode ser ao mesmo tempo estilosa, acessível e sustentável.
-                    Fundada em 2025, nossa loja virtual nasceu da paixão por peças únicas e do compromisso com um
-                    consumo mais consciente. Nosso objetivo é oferecer roupas e acessórios de qualidade, que contam
-                    histórias e ajudam você a expressar seu estilo sem comprometer o orçamento.
+            
+                <div class="sobre-nos">
+                    <div>
+                    <img
+                        src="https://m.media-amazon.com/images/S/pv-target-images/0935dfa2ce1c68a5b687bad1ee8052470341f625445ca54b8695aa420e384111.jpg">
+                    </div>
 
-                    Cada item em nosso catálogo é cuidadosamente selecionado para garantir que você encontre peças
-                    especiais e cheias de personalidade. Queremos que cada compra seja uma experiência prazerosa, onde
-                    você se sinta confiante e satisfeito com suas escolhas.
-
-                    Junte-se a nós nessa jornada de moda sustentável e descubra como é possível vestir-se com
-                    consciência e elegância.
-
-                </p>
-            </div>
+                    <div class="texto-sobre">
+                        <h2>Sobre Nós</h2>
+                        <p>
+                            No Brechó do Quico, acreditamos que a moda pode ser ao mesmo tempo estilosa, acessível e
+                            sustentável.
+                            Fundada em 2025, nossa loja virtual nasceu da paixão por peças únicas e do compromisso com um
+                            consumo mais consciente. Nosso objetivo é oferecer roupas e acessórios de qualidade, que contam
+                            histórias e ajudam você a expressar seu estilo sem comprometer o orçamento.
+    
+                            Cada item em nosso catálogo é cuidadosamente selecionado para garantir que você encontre peças
+                            especiais e cheias de personalidade. Queremos que cada compra seja uma experiência prazerosa,
+                            onde
+                            você se sinta confiante e satisfeito com suas escolhas.
+    
+                            Junte-se a nós nessa jornada de moda sustentável e descubra como é possível vestir-se com
+                            consciência e elegância.
+                        </p>
+                    </div>
+                </div>
 
         </section>
 
         <section id="contato">
-            <div id="contato">
-
+            <div id="formulario_contato">
+                <h2>Contato</h2>
                 <form action="#" method="post">
                     <label for="nome">Nome: </label>
+                    <br>
                     <input type="text" id="nome" name="nome" required>
-
+                    <br>
                     <label for="email">E-mail :</label>
+                    <br>
                     <input type="email" id="email" name="email" required>
-
+                    <br>
+                    <label for="mensagem">Mensagem :</label>
+                    <br>
+                    <input type="mensagem" id="mensagem" name="mensagem" required>
+                    <br>
                     <button type="submit">Enviar</button>
                 </form>
-
             </div>
-
         </section>
-
     </main>
 
-
     <footer>
-
-
+        <nav class="rodape">
+            <div>
+                <p>2025 Brécho Online do Quico. Todos os direitos reservados.</p>
+            </div>
+        </nav>
     </footer>
 
 </body>
